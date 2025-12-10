@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5374880608482799458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_Name
+      value: Invader_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_TagString
+      value: Invader
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182601947205602544, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: animationSprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182601947205602544, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: animationSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 354c175c968ab844e841a3dedf43df88, type: 3}
+    - target: {fileID: 5182601947205602544, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: animationSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b023377f1072c24da5ebb2e3e2c042e, type: 3}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890372988068361830, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459776189490244850, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: maxShootTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459776189490244850, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      propertyPath: minShootTime
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5262231824491290182}
+    - targetCorrespondingSourceObject: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3289506569721996247}
+    - targetCorrespondingSourceObject: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8984996140626889822}
+  m_SourcePrefab: {fileID: 100100000, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+--- !u!1 &5837208454992333346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1987925020608374080, guid: 92cbbd5868fd0bf4daec42f6e9deaf24, type: 3}
+  m_PrefabInstance: {fileID: 5374880608482799458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &5262231824491290182
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837208454992333346}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &3289506569721996247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837208454992333346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb141679478678644bcf356e3bd94c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 10
+--- !u!114 &8984996140626889822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837208454992333346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f431af2c799eb846b2fe7bbe73aac88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invaderLaserPrefab: {fileID: 2241343050497090492, guid: f9900b2e364b4944089d360b27cb6b47, type: 3}
+  minShootTime: 2
+  maxShootTime: 6
